@@ -1,0 +1,180 @@
+.searchCriteriaBox {
+    margin-bottom: 12px;
+}
+
+
+
+.configSelectBoxTop2 .clientNameSelect {
+    margin-bottom: 12px;
+}
+
+.identificationContainer .configSelectBoxTop {
+    margin-top: 10px;
+}
+
+.configSelectBoxTop {
+    margin-top: 8px;
+    padding: 0 6px;
+}
+
+/* New Css */
+
+.BeneficiaryRegistrationgrid .col {
+    width: 33.33%;
+    padding: 0 6px;
+}
+
+.beneficiaryBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+
+.beneRegisterBtn {
+    margin-left: 6px;
+}
+
+.centeredModal .modal-dialog-centered {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+/* New Css */
+
+.RemitterRegistrationgrid .col {
+    width: 100%;
+    padding: 0 6px;
+}
+
+.beneficiaryBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+
+.beneRegisterBtn {
+    margin-left: 6px;
+}
+
+.centeredModal .modal-dialog-centered {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.vertical-hr {
+    border-left: 1px solid var(--color-table-border);
+    margin: 10px 20px;
+
+}
+
+.remitterText-1 {
+    font-size: var(--font-size14);
+    line-height: 1.66;
+    color: var(--color-black);
+}
+
+.e-kycPara {
+    margin-top: 27px;
+
+}
+
+.fingerPrintBox {
+    width: 100%;
+    border: 1px solid var(--color-table-border);
+    padding: 10px 0 15px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.fingerPrintBox h5 {
+    font-size: var(--font-size14);
+    line-height: 1.66;
+    color: var(--color-black);
+}
+
+.fingerPrintSvg {
+    width: 81px;
+    height: auto;
+    margin: 12px 0 18px;
+}
+
+
+.captureBtn {
+    width: 106px;
+    height: 24px;
+    background-color: var(--capture-btn-color);
+    color: var(--color-white);
+    font-size: var(--font-size14);
+    border-radius: 4px;
+    font-size: var(--font-size12);
+}
+
+.addBeneficiaryBtn {
+    width: 129px;
+    height: 32px;
+    color: var(--background-white);
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size14);
+    background-color: var(--color-primary-default);
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+.remitterBox {
+    display: flex;
+}
+
+
+@media(max-width:768px) {
+    .remitterBox {
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .e-kycPara {
+        margin-top: 0px;
+    }
+
+    .vertical-hr {
+        display: none;
+    }
+
+    .fingerPrintBox {
+        margin-top: 0px;
+    }
+}
+
+
+@media(max-width:425px) {
+    .BeneficiaryRegistrationgrid .col {
+        width: 100%;
+        padding: 0 6px;
+    }
+
+    .beneRegisterBtn {
+        margin-left: 0px;
+    }
+
+    .beneficiaryBtns {
+        flex-direction: column;
+    }
+
+    .beneficiaryBtns button {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .remitterBox {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

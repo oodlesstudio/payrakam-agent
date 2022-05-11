@@ -1,0 +1,39 @@
+.searchCriteriaBox {
+    margin-bottom: 12px;
+}
+
+
+
+.configSelectBoxTop2 .clientNameSelect {
+    margin-bottom: 12px;
+}
+
+.identificationContainer .configSelectBoxTop {
+    margin-top: 10px;
+}
+
+.configSelectBoxTop {
+    margin-top: 8px;
+    padding: 0 6px;
+}
+
+
+@media(max-width:425px) {
+    .RemitterRegistrationgrid .col {
+        width: 100%;
+        padding: 0 6px;
+    }
+
+    .beneRegisterBtn {
+        margin-left: 0px;
+    }
+
+    .beneficiaryBtns {
+        flex-direction: column;
+    }
+
+    .beneficiaryBtns button {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+}
