@@ -313,6 +313,7 @@
 .BeneficiaryHeader h5 {
     font-size: var(--font-size18);
     font-weight: var(--font-weight-600);
+    color: var(--color-black);
 }
 
 .beneficiaryBtn {

@@ -292,36 +292,16 @@ const TransferMoneyWindow = () => {
                           <span className="icon-Sort-icon"></span>
                         </Link>
                       </th>
-                      <th scope="col">
-                        Contact No.
-                        <Link to="/">
-                          <span className="icon-Sort-icon"></span>
-                        </Link>
-                      </th>
-                      <th scope="col">
-                        Account Number
-                        <Link to="/">
-                          <span className="icon-Sort-icon"></span>
-                        </Link>
-                      </th>
-                      <th scope="col">
-                        IFSC Code
-                        <Link to="/">
-                          <span className="icon-Sort-icon"></span>
-                        </Link>
-                      </th>
+                      <th scope="col">Contact No.</th>
+                      <th scope="col">Account Number</th>
+                      <th scope="col">IFSC Code</th>
                       <th scope="col">
                         Status
                         <Link to="/">
                           <span className="icon-Sort-icon"></span>
                         </Link>
                       </th>
-                      <th scope="col">
-                        Action
-                        <Link to="/">
-                          <span className="icon-Sort-icon"></span>
-                        </Link>
-                      </th>
+                      <th scope="col">Action</th>
                     </tr>
                   </thead>
                   <tbody>

@@ -370,6 +370,7 @@
     border-radius: 7px 7px 0px 0px;
     font-size: var(--font-size14);
     font-weight: var(--font-weight-600);
+    color: var(--color-black);
 }
 
 

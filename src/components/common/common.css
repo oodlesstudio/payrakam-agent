@@ -50,7 +50,7 @@
   border: none;
 }
 .headerSideMenu .sidebarButton {
-  top: 45%;
+  /* top: 45%; */
 }
 .headerSideMenu .sideBar {
   border: none;
@@ -286,9 +286,10 @@
   border-radius: 50%;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   position: absolute;
-  top: 32%;
+  top: 40vh;
   right: -12px;
   z-index: 999;
+  
 }
 .sidebarHeading {
   border-bottom: 0.5px solid var(--sidebar-heading-color);
@@ -303,6 +304,7 @@
   margin-bottom: 6px;
   border: none;
   border-radius: 4px;
+  background-color: unset !important;
 }
 .sideBar .accordion .accordion-item .accordion-button {
   background-color: var(--sidebar-color);

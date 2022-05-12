@@ -79,7 +79,7 @@ const BeneficiaryRegistrationWindow = () => {
               />
             </svg>
           </span>
-          <p className="fontSize12">Transfer Money</p>
+          <p className="fontSize12 colorPrimaryDefault">Transfer Money</p>
           <span>
             <svg
               width="8"

@@ -457,3 +457,11 @@ input:disabled::placeholder {
 .inputTotalAmount {
   background-color: var(--color-secondary-light-defaut) !important;
 }
+
+
+
+@media(max-width:768px){
+  .availBalData{
+    display: none;
+  }
+}

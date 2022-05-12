@@ -199,7 +199,7 @@ const Header = () => {
                 fill="#003087"
               />
             </svg>
-            <div>
+            <div className="availBalData">
               <p className="text-uppercase fontSize10-m">Available Bal.</p>
               <p className="fontSize14-m colorPrimaryDefault">9675.00</p>
             </div>

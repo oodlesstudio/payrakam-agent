@@ -85,7 +85,7 @@ const AepsTransactionWindow = () => {
               />
             </svg>
           </Link>
-          <p className="fontSize12  colorPrimaryDefault">AEPS Transactions</p>
+          <p className="fontSize12  ">AEPS Transactions</p>
         </div>
       </div>
 
@@ -328,12 +328,7 @@ const AepsTransactionWindow = () => {
                             <span className="icon-Sort-icon"></span>
                           </Link>
                         </th>
-                        <th scope="col">
-                          Amount
-                          <Link to="/">
-                            <span className="icon-Sort-icon"></span>
-                          </Link>
-                        </th>
+                        <th scope="col">Amount</th>
                         <th scope="col">
                           RRN
                           <Link to="/">
