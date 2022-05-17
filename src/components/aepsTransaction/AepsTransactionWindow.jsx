@@ -97,7 +97,7 @@ const AepsTransactionWindow = () => {
               {/* Heading */}
               <div className="aepsHeading">AEPS - Balance Enquiry</div>
               <div className="aepsBox aepsTabBox">
-                <div className="configSelectBoxTop configSelectBoxTop2 mt-3 mb-0  row">
+                <div className="configSelectBoxTop configSelectBoxTop2 mt-3 mb-0 px-0  row">
                   <div className="clientNameSelect col-12">
                     <label htmlFor="dob">Transaction Type</label>
                     <div className="row row-cols-auto row-transaction ">
@@ -316,7 +316,7 @@ const AepsTransactionWindow = () => {
                   <table className="table table-initial-width aeps-table table-striped table-hover table-borderless align-middle">
                     <thead>
                       <tr>
-                        <th scope="col">
+                        <th scope="col" className="px-0">
                           Txn Date
                           <Link to="/">
                             <span className="icon-Sort-icon"></span>
@@ -345,70 +345,70 @@ const AepsTransactionWindow = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>
                         <td>Default Stage</td>
                       </tr>
                       <tr>
-                        <td>01/02/2022, 06:35:00 PM</td>
+                        <td className="px-0">01/02/2022, 06:35:00 PM</td>
                         <td>Balance Enquiry</td>
                         <td>0.00</td>
                         <td>237894567823</td>

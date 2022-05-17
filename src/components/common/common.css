@@ -502,3 +502,8 @@
   margin: 0 auto;
   justify-content: center;
 }
+
+
+.form-check {
+  min-height: inherit;
+}
