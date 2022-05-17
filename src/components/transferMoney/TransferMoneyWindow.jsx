@@ -203,32 +203,7 @@ const TransferMoneyWindow = () => {
                     className="beneficiaryBtn"
                     // onClick={() => setPage("beneficiaryRegistration")}
                   >
-                    <span>
-                      <svg
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect
-                          x="7.20007"
-                          y="2.40039"
-                          width="1.6"
-                          height="11.2"
-                          rx="0.8"
-                          fill="#003087"
-                        />
-                        <rect
-                          x="2.40002"
-                          y="7.20117"
-                          width="11.2"
-                          height="1.6"
-                          rx="0.8"
-                          fill="#003087"
-                        />
-                      </svg>
-                    </span>
+                    <span className="icon-add addbeneIcon"></span>
                     <span>Add Beneficiary</span>
                   </button>
                 </Link>

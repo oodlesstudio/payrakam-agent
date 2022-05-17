@@ -191,7 +191,7 @@ const BeneficiaryRegistrationWindow = () => {
             Cancel
           </button>
           <Link to="/fund-transfer">
-            <button type="button" class="btnPrimary beneRegisterBtn">
+            <button type="button" className="btnPrimary beneRegisterBtn">
               Register
             </button>
           </Link>

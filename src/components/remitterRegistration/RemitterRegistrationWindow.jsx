@@ -204,7 +204,7 @@ const RemitterRegistrationWindow = () => {
           </button>
           <button
             type="button"
-            class="btnPrimary beneRegisterBtn"
+            className="btnPrimary beneRegisterBtn"
             onClick={() => setSaveFilters(!saveFilters)}
           >
             Proceed

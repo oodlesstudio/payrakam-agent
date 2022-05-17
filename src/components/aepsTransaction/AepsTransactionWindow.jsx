@@ -111,7 +111,7 @@ const AepsTransactionWindow = () => {
                           />
                           <label
                             className="form-check-label"
-                            for="flexRadioDefault1"
+                            htmlFor="flexRadioDefault1"
                           >
                             Balance Enquiry
                           </label>
@@ -127,7 +127,7 @@ const AepsTransactionWindow = () => {
                           />
                           <label
                             className="form-check-label"
-                            for="flexRadioDefault2"
+                            htmlFor="flexRadioDefault2"
                           >
                             Cash Withdrawal
                           </label>
@@ -143,7 +143,7 @@ const AepsTransactionWindow = () => {
                           />
                           <label
                             className="form-check-label"
-                            for="flexRadioDefault3"
+                            htmlFor="flexRadioDefault3"
                           >
                             Mini Statement
                           </label>
@@ -164,7 +164,7 @@ const AepsTransactionWindow = () => {
                           />
                           <label
                             className="form-check-label"
-                            for="flexRadioDefault4"
+                            htmlFor="flexRadioDefault4"
                           >
                             Aadhar Number
                           </label>
@@ -180,7 +180,7 @@ const AepsTransactionWindow = () => {
                           />
                           <label
                             className="form-check-label"
-                            for="flexRadioDefault5"
+                            htmlFor="flexRadioDefault5"
                           >
                             Virtual ID
                           </label>
@@ -497,7 +497,7 @@ const AepsTransactionWindow = () => {
                             aria-label="Previous"
                           >
                             <span
-                              class="icon-Breadcrumb-Arrow"
+                              className="icon-Breadcrumb-Arrow"
                               style={{
                                 fontSize: "16px",
                                 transform: "rotate(180deg)",
@@ -539,7 +539,7 @@ const AepsTransactionWindow = () => {
                           >
                             <span>Last</span>
                             <span
-                              class="icon-Breadcrumb-Arrow"
+                              className="icon-Breadcrumb-Arrow"
                               style={{ fontSize: "16px" }}
                             ></span>
                           </Link>
@@ -652,10 +652,10 @@ const AepsTransactionWindow = () => {
             </div>
 
             <div className="d-flex justify-content-center bulkAttachmentBtn ">
-              <button type="button" class="btnPrimaryOutline">
+              <button type="button" className="btnPrimaryOutline">
                 Cancel
               </button>
-              <button type="button" class="btnPrimary btnMobile ms-2">
+              <button type="button" className="btnPrimary btnMobile ms-2">
                 import
               </button>
             </div>

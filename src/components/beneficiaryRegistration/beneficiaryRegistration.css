@@ -36,4 +36,8 @@
         margin-bottom: 12px;
         width: 100%;
     }
+    .beneficiaryBtns a {
+        display: block;
+        width: 100%;
+    }
 }
