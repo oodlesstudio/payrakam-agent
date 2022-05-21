@@ -100,7 +100,7 @@ const AepsTransactionWindow = () => {
                 <div className="configSelectBoxTop configSelectBoxTop2 mt-3 mb-0 px-0  row">
                   <div className="clientNameSelect col-12">
                     <label htmlFor="dob">Transaction Type</label>
-                    <div className="row row-cols-auto row-transaction ">
+                    <div className="row row-cols-auto row-transaction row-transaction-mobile">
                       <div className=" mt-2 col">
                         <div className="form-check">
                           <input
@@ -153,7 +153,7 @@ const AepsTransactionWindow = () => {
                   </div>
                   <div className="clientNameSelect col-12">
                     <label htmlFor="dob">Source Type</label>
-                    <div className="row row-cols-auto row-transaction ">
+                    <div className="row row-cols-auto row-transaction row-transaction-mobile ">
                       <div className=" mt-2 col">
                         <div className="form-check">
                           <input

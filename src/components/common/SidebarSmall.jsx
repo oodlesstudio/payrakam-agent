@@ -598,7 +598,9 @@ const SidebarSmall = (props) => {
           overlay={dmtPopover}
           rootClose
         >
-          <span className="sidebarIconSize icon-DMT">{/* DMT Icon */}</span>
+          <div className={activeLink("/transfer-money")}>
+            <span className="sidebarIconSize icon-DMT">{/* DMT Icon */}</span>
+          </div>
         </OverlayTrigger>
       </div>
 
@@ -622,9 +624,11 @@ const SidebarSmall = (props) => {
           overlay={aepsPopover}
           rootClose
         >
-          <span className="sidebarIconSize icon-AEPS">
-            {/* Aeps Small Icon */}
-          </span>
+          <div className={activeLink("/")}>
+            <span className="sidebarIconSize icon-AEPS">
+              {/* Aeps Small Icon */}
+            </span>
+          </div>
         </OverlayTrigger>
       </div>
 

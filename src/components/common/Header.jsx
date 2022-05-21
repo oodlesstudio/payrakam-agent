@@ -245,7 +245,7 @@ const Header = () => {
             show={siteConfiguration}
             onHide={() => setSiteConfiguration(!siteConfiguration)}
             centered
-            className="defaultThemeModal siteConfigurationModal"
+            className="defaultThemeModal centeredModal siteConfigurationModal"
           >
             <Modal.Header closeButton>
               <Modal.Title className="fontSize16-sm letterSpacing-2">
@@ -275,7 +275,7 @@ const Header = () => {
             show={openDefaultModal}
             onHide={() => setOpenDefaultModal(!openDefaultModal)}
             centered
-            className="defaultThemeModal"
+            className="defaultThemeModal centeredModal"
           >
             <Modal.Header closeButton>
               <Modal.Title className="fontSize16-sm letterSpacing-2">
@@ -308,7 +308,7 @@ const Header = () => {
             show={openLightModal}
             onHide={() => setOpenLightModal(!openLightModal)}
             centered
-            className="defaultThemeModal"
+            className="defaultThemeModal centeredModal"
           >
             <Modal.Header closeButton>
               <Modal.Title className="fontSize16-sm letterSpacing-2">
@@ -345,7 +345,7 @@ const Header = () => {
           <Modal
             show={openDarkModal}
             onHide={() => setOpenDarkModal(!openDarkModal)}
-            className="defaultThemeModal"
+            className="defaultThemeModal centeredModal"
             centered
           >
             <Modal.Header closeButton>

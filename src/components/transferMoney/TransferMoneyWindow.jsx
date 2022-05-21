@@ -182,7 +182,7 @@ const TransferMoneyWindow = () => {
                 </div>
               </div>
               {/* Result Not Found */}
-              <div className="mt-3">
+              <div className="mt-3 notFoundLink">
                 <span className="remitterText">Remitter details not found</span>
                 <span>
                   <Link to="/remitter-registration">

@@ -394,14 +394,15 @@
 
 .row-transaction .col {
     width: 33.33% !important;
-    
-}
-.row-transaction {
-    margin-left: -7px;
-    
+
 }
 
-.apesAgreeCheck{
+.row-transaction {
+    margin-left: -7px;
+
+}
+
+.apesAgreeCheck {
     margin-left: 7px;
 }
 
@@ -426,14 +427,14 @@
     }
 
     .tableContentBox .table-initial-width.aeps-table {
-        width: 100%;
+        width: 800px;
     }
 
     .borderBoxSideway {
         padding-right: 0px;
     }
 
-    .aepsRecentTransactionBox{
+    .aepsRecentTransactionBox {
         margin-top: 12px;
     }
 
@@ -462,7 +463,19 @@
         width: 100%;
     }
 
-                .tableContentBox .table-initial-width.aeps-table {
-                    width: 500px;
-                }
+    .tableContentBox .table-initial-width.aeps-table {
+        width: 500px;
+    }
+
+    .row-transaction.row-transaction-mobile .col {
+        width: 45% !important;
+    }
+}
+
+
+
+@media(max-width:1200px){
+        .tableContentBox .table-initial-width.aeps-table {
+                width: 800px;
+            }
 }

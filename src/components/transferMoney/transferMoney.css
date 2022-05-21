@@ -415,6 +415,10 @@
     .searchFieldsBtns{
         margin-top: 12px;
     }
+
+    .notFoundLink{
+        text-align: center;
+    }
 }
 
 
