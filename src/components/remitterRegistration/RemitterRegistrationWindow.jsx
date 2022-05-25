@@ -229,7 +229,7 @@ const RemitterRegistrationWindow = () => {
             <p className="letterSpacing-2 colorBlack">
               Remitter Added Successfully
             </p>
-            <Link to="/beneficiary-registration">
+            <Link to="/dmt/beneficiary-registration">
               <button className="addBeneficiaryBtn">Add Beneficiary</button>
             </Link>
           </Modal.Body>

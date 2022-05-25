@@ -1,15 +1,27 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, matchPath } from "react-router-dom";
 
 const SideBar = (props) => {
   let path = useLocation().pathname;
 
+  // AEPS Path
+  let aepsPath = matchPath("/aeps/*", path);
+  if (aepsPath) {
+    aepsPath = aepsPath.pathnameBase;
+  }
+
+  // DMT Path
+  let dmtPath = matchPath("/dmt/*", path);
+  if (dmtPath) {
+    dmtPath = dmtPath.pathnameBase;
+  }
+
   if (
-    path === "/remitter-registration" ||
-    path === "/beneficiary-registration" ||
-    path === "/fund-transfer"
+    path === "/dmt/remitter-registration" ||
+    path === "/dmt/beneficiary-registration" ||
+    path === "/dmt/fund-transfer"
   ) {
-    path = "/transfer-money";
+    path = "/dmt/transfer-money";
   }
 
   const activeLink = (arr) => {
@@ -23,6 +35,12 @@ const SideBar = (props) => {
   const activeBtnClass = (arr) => {
     if (arr === path) {
       return "accordion-button";
+    }
+    if (arr === aepsPath) {
+      return "accordion-button";
+    }
+    if (arr === dmtPath) {
+      return "accordion-button";
     } else {
       return "accordion-button collapsed";
     }
@@ -30,12 +48,24 @@ const SideBar = (props) => {
   const activeAriaExpand = (arr = []) => {
     if (arr === path) {
       return "true";
+    }
+    if (arr === aepsPath) {
+      return "true";
+    }
+    if (arr === dmtPath) {
+      return "true";
     } else {
       return "false";
     }
   };
   const activeAccordionBodyClass = (arr) => {
     if (arr === path) {
+      return "accordion-collapse collapse show";
+    }
+    if (arr === aepsPath) {
+      return "accordion-collapse collapse show";
+    }
+    if (arr === dmtPath) {
       return "accordion-collapse collapse show";
     } else {
       return "accordion-collapse collapse ";
@@ -49,11 +79,11 @@ const SideBar = (props) => {
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingTwo">
             <button
-              className={activeBtnClass("/transfer-money")}
+              className={activeBtnClass("/dmt")}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
-              aria-expanded={activeAriaExpand("/transfer-money")}
+              aria-expanded={activeAriaExpand("/dmt")}
               aria-controls="collapseTwo"
             >
               <span className=" sidebarIconSize icon-DMT">
@@ -64,7 +94,7 @@ const SideBar = (props) => {
           </h2>
           <div
             id="collapseTwo"
-            className={activeAccordionBodyClass("/transfer-money")}
+            className={activeAccordionBodyClass("/dmt")}
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
@@ -72,8 +102,8 @@ const SideBar = (props) => {
               <ul className="subMenu">
                 <li>
                   <Link
-                    to="/transfer-money"
-                    className={activeLink("/transfer-money")}
+                    to="/dmt/transfer-money"
+                    className={activeLink("/dmt/transfer-money")}
                   >
                     <span className="subMenuLeft">
                       <span className="icon-vertical-line"></span>
@@ -144,11 +174,11 @@ const SideBar = (props) => {
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingAdminManagement">
             <button
-              className={activeBtnClass("/")}
+              className={activeBtnClass("/aeps")}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseAdminManagement"
-              aria-expanded={activeAriaExpand("/")}
+              aria-expanded={activeAriaExpand("/aeps")}
               aria-controls="collapseAdminManagement"
             >
               <span className="sidebarIconSize icon-AEPS">
@@ -159,14 +189,17 @@ const SideBar = (props) => {
           </h2>
           <div
             id="collapseAdminManagement"
-            className={activeAccordionBodyClass("/")}
+            className={activeAccordionBodyClass("/aeps")}
             aria-labelledby="headingAdminManagement"
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
               <ul className="subMenu">
                 <li>
-                  <Link to="/" className={activeLink("/")}>
+                  <Link
+                    to="/aeps/transactions"
+                    className={activeLink("/aeps/transactions")}
+                  >
                     <span className="subMenuLeft">
                       <span className="icon-vertical-line"></span>
                     </span>

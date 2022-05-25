@@ -185,7 +185,7 @@ const TransferMoneyWindow = () => {
               <div className="mt-3 notFoundLink">
                 <span className="remitterText">Remitter details not found</span>
                 <span>
-                  <Link to="/remitter-registration">
+                  <Link to="/dmt/remitter-registration">
                     Click here to Register this mobile number
                   </Link>
                 </span>
@@ -198,7 +198,7 @@ const TransferMoneyWindow = () => {
             <div className="tableBorderBox">
               <div className="BeneficiaryHeader">
                 <h5>Beneficiary Details</h5>
-                <Link to="/beneficiary-registration">
+                <Link to="/dmt/beneficiary-registration">
                   <button
                     className="beneficiaryBtn"
                     // onClick={() => setPage("beneficiaryRegistration")}

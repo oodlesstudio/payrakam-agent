@@ -12,10 +12,11 @@ const router = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<AepsTransactions />} />
-        <Route path="/transfer-money" element={<TransferMoney />} />
-        <Route path="/beneficiary-registration" element={<BeneficiaryRegistration />} />
-        <Route path="/fund-transfer" element={<FundTransfer />} />
-        <Route path="/remitter-registration" element={<RemitterRegistration />} />
+        <Route path="/aeps/transactions" element={<AepsTransactions />} />
+        <Route path="/dmt/transfer-money" element={<TransferMoney />} />
+        <Route path="/dmt/beneficiary-registration" element={<BeneficiaryRegistration />} />
+        <Route path="/dmt/fund-transfer" element={<FundTransfer />} />
+        <Route path="/dmt/remitter-registration" element={<RemitterRegistration />} />
       </Routes>
     </BrowserRouter>
   );
