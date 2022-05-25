@@ -1,8 +1,9 @@
 import React from "react";
-import { Link, useLocation, matchPath } from "react-router-dom";
+import { Link, useLocation, matchPath, useNavigate } from "react-router-dom";
 
 const SideBar = (props) => {
   let path = useLocation().pathname;
+  let navigate = useNavigate();
 
   // AEPS Path
   let aepsPath = matchPath("/aeps/*", path);
@@ -22,6 +23,11 @@ const SideBar = (props) => {
     path === "/dmt/fund-transfer"
   ) {
     path = "/dmt/transfer-money";
+  }
+
+  // redirects from home screen
+  if (path === "/") {
+    navigate("/aeps/transactions");
   }
 
   const activeLink = (arr) => {
