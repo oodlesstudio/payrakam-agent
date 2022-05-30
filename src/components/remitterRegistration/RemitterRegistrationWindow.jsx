@@ -217,7 +217,7 @@ const RemitterRegistrationWindow = () => {
           show={saveFilters}
           onHide={() => setSaveFilters(!saveFilters)}
           centered
-          className="defaultThemeModal saveFiltersModal centeredModal"
+          className="defaultThemeModal mobile-defaultThemeModal saveFiltersModal centeredModal"
         >
           <Modal.Header closeButton>
             <Modal.Title className="fontSize16-sm letterSpacing-2">

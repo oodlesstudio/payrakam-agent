@@ -203,7 +203,7 @@ const BeneficiaryRegistrationWindow = () => {
           show={saveFilters}
           onHide={() => setSaveFilters(!saveFilters)}
           centered
-          className="defaultThemeModal saveFiltersModal centeredModal"
+          className="defaultThemeModal mobile-defaultThemeModal saveFiltersModal centeredModal"
         >
           <Modal.Header closeButton>
             <Modal.Title className="fontSize16-sm letterSpacing-2">
@@ -225,7 +225,7 @@ const BeneficiaryRegistrationWindow = () => {
           show={resetFilters}
           onHide={() => setResetFilters(!resetFilters)}
           centered
-          className="defaultThemeModal saveFiltersModal errorFiltersModal centeredModal"
+          className="defaultThemeModal mobile-defaultThemeModal saveFiltersModal errorFiltersModal centeredModal"
         >
           <Modal.Header closeButton>
             <Modal.Title className="fontSize16-sm letterSpacing-2">
