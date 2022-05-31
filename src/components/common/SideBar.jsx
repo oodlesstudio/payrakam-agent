@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useLocation, matchPath, useNavigate } from "react-router-dom";
 
 const SideBar = (props) => {
@@ -26,9 +26,11 @@ const SideBar = (props) => {
   }
 
   // redirects from home screen
-  if (path === "/") {
-    navigate("/aeps/transactions");
-  }
+  useEffect(() => {
+    if (path === "/") {
+      navigate("/aeps/transactions");
+    }
+  });
 
   const activeLink = (arr) => {
     if (arr === path) {
